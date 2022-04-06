@@ -3,5 +3,6 @@
   "email": "hello@cypress.io",
   "body": "Fixtures are a great way to mock data for responses to routes",
    "Email": "test@mailinator.com",
-   "Password": "1qaz2wsxAQ!@#"
+   "Password": "1qaz2wsxAQ!@#",
+   "PasswordShort": "ws"
 }

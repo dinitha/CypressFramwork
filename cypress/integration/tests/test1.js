@@ -19,8 +19,8 @@ describe('User should not be able in login to the application with incorrect use
     loginPage.getEmail().type(this.data.Email);
     loginPage.getPassword().type(this.data.Password);
     loginPage.getLoginButton().click();
-
-
+    cy.wait(5*1000);
+    cy.get('div.notification-message').first().should('have.text',"The authentication is invalid!");
 //    loginPage.getLoginUserName().should('have.value',this.data.Username);
 
     
